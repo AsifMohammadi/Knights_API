@@ -3,7 +3,7 @@ Feature: End to end account creation
     Given url BASE_URL
     * def getToken = callonce read('GenerateValidToken.feature')
     * def token = "Bearer " + getToken.response.token
-@End2End
+
   Scenario: Doing all in once scenario
    Given path "api/accounts/add-primary-account"
     * def data = Java.type('Data.DataGenerator')

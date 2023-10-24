@@ -19,7 +19,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   capture_pageview:false,
   api_transport:'sendBeacon',
   loaded: function(posthog) { 
-    posthog.capture("report_summary",{distinct_id:"02a2c7d1-e334-4609-ab26-e8d72e2ebef1",karate_version:"1.4.1",karate_meta:"intellij:1.7.8.364-232"});
+    posthog.capture("report_summary",{distinct_id:"02a2c7d1-e334-4609-ab26-e8d72e2ebef1",karate_version:"1.4.1",karate_meta:null});
   }
 });
 </script>
@@ -36,18 +36,18 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-pass" class="bg-success">5</div>
       <div id="nav-fail" class="bg-danger">0</div>
     </div>
   </div>
   <div id="nav-env">
-    <div></div>
+    <div>qa</div>
   </div>
   <div id="nav-type">
     <div>Features</div>
   </div>
   <div id="nav-date">
-    <div>2023-10-23 08:03:03 PM</div>
+    <div>2023-10-23 09:05:32 PM</div>
   </div>
 </div>
 
@@ -71,13 +71,53 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
           <tbody>
             <tr class="passed">
               <td>
-                <a href="src.test.java.AllFeatures.EndtoEnd.html">src/test/java/AllFeatures/EndtoEnd.feature</a>
+                <a href="AllFeatures.CreateAccount.html">AllFeatures/CreateAccount.feature</a>
+              </td>
+              <td>Creating new accounts here</td>
+              <td class="num">1</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">1063</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="AllFeatures.EndtoEnd.html">AllFeatures/EndtoEnd.feature</a>
               </td>
               <td>End to end account creation</td>
               <td class="num">1</td>
               <td class="num">0</td>
               <td class="num">1</td>
-              <td class="num">1006</td>
+              <td class="num">724</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="AllFeatures.ExistingAccount.html">AllFeatures/ExistingAccount.feature</a>
+              </td>
+              <td>Adding new account</td>
+              <td class="num">1</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">673</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="AllFeatures.GenerateValidToken.html">AllFeatures/GenerateValidToken.feature</a>
+              </td>
+              <td>Generating token</td>
+              <td class="num">1</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">443</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="AllFeatures.new.html">AllFeatures/new.feature</a>
+              </td>
+              <td>Verifying the plan codes</td>
+              <td class="num">1</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">739</td>
             </tr>
           </tbody>
         </table>
